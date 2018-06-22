@@ -1,3 +1,3 @@
 # git-client
 
-docker image 
+docker alphine image
