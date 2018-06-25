@@ -4,5 +4,5 @@ FROM alpine:latest
 RUN apk add --no-cache git && \
     apk add --no-cache openssh && \
 #do not use strict host key check 
-    echo "StrictHostKeyChecking no\n" >> /etc/ssh/ssh_config 
+    echo "StrictHostKeyChecking no" >> /etc/ssh/ssh_config 
 CMD ["git"]
